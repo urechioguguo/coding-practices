@@ -1,0 +1,15 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: brown;
+  font-family: courier;
+  font-size: 160%;
+  margin: 50px;
+}
