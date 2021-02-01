@@ -4,12 +4,12 @@ body {
 
 h1 {
   color: blue;
-  font-family: verdana;
+  font-family: 'Playfair Display', serif;
   font-size: 300%;
 }
 p {
   color: brown;
-  font-family: courier;
+  font-family: 'Raleway', sans-serif;
   font-size: 160%;
   margin: 50px;
 }
