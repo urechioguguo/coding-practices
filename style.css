@@ -16,3 +16,10 @@ body {
     font-size: 30px;
     margin-top: 20px;
   }
+
+  ul {
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+  }
