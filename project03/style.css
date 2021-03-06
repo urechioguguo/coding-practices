@@ -35,20 +35,21 @@ body {
 /* Container holding the image and the text */
 .container {
 	position: relative;
-	text-align: center;
-	color: white;
   }
-  
-  /* Centered text */
-  .centered {
-    color: rgb(230, 230, 230);
+
+  .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+	color: rgb(230, 230, 230);
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 	font-weight: bold;
     margin-top: 20px;
-	text-align: center;
   }
-
+  
 
     /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -60,6 +61,12 @@ body {
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
 	padding-top: 60px;
+  }
+
+  img { 
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
   }
 
   h2 {
@@ -95,6 +102,55 @@ body {
 	margin-bottom: 25px;
 	text-align: justify;
   }
+
+/* Style all font awesome icons */
+.center-icons {
+	display: table;
+	width: 100%;
+	padding: 15;
+  }
+  
+  #social-test {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 30px;
+  }
+  
+.social {
+	  padding-left: 340px;
+	}
+	
+	li2 {
+		color: solid rgba(58, 58, 59, 1);
+		list-style-type: none;
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		padding: 5px;
+		border: 1px solid rgba(76, 152, 175, 1);
+		cursor: pointer;
+		margin-left: 10px;
+		margin-bottom: 20px;
+		transition: ease .3s;
+	}
+
+.social:hover {
+	color: #4c98af;
+	opacity: 0.5;
+}
+
+.social:hover {
+	color: #4c98af;
+	opacity: 0.5;
+}
+
+.social:hover > li2 {
+	color: #4c98af;
+	opacity: 0.5;
+}
 
   footer {
 	text-align: center;
