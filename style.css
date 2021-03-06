@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+    margin-left: 50px;
+  }
+
+  h2 {
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  h3 {
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+  }
