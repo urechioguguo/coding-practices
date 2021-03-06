@@ -4,48 +4,77 @@ body {
 	margin-right: 300px;
   }
 
+.topnav {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: #4c98af;
+	display: inline-block;
+	padding: 14px 50px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 12px;
   }
-  
+
   /* Change the color of links on hover */
   .topnav a:hover {
-	background-color: #ddd;
+	background-color: #a0cfdd;
 	color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-	background-color: #4CAF50;
+	background-color: #4c98af;
 	color: white;
   }
 
-  h1 {
-    color: rgb(177, 177, 177);
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+  }
+  
+  /* Centered text */
+  .centered {
+    color: rgb(230, 230, 230);
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+	font-weight: bold;
     margin-top: 20px;
 	text-align: center;
+  }
+
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 60px;
   }
 
   h2 {
     color: rgb(58, 58, 58);
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
   }
 
   h3 {
     color: rgb(58, 58, 58);
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+	margin-bottom: 10px;
   }
 
   p {
@@ -53,6 +82,28 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     margin-top: 15px;
+	margin-bottom: 25px;
+	text-align: justify;
+  }
+
+  ul {
+	color:#4c98af;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+	font-weight: bold;
+    margin-top: 15px;
+	margin-bottom: 25px;
+	text-align: justify;
+  }
+
+  footer {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    margin-top: 20px;
+	padding: 10px;
+	background-color: #4c98af;
+	color: white;
   }
 
 
