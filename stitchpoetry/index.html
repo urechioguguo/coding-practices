@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+
     <h1>Stitch Poetry</h1>
-    <h2>Generate Poem</h2>
-    <h3 id="title"></h3>
-    <div id="poem"></div>
+    
+    <div class="group">
+      <div class="left">
+        <p><button class="generate-button">Generate Poem</button> <input type="number" id="num-sentences" value="10" /> new lines</p>
+      </div>
+      <div class="right">
+        <div id="poetry-content" class="poetry-content"></div>
+      </div>
+    </div>
+    
     <script src="./script.js"></script>
   </body>
 </html>
