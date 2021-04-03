@@ -1,54 +1,39 @@
-body {
-    background-color: antiquewhite;
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #title {
-    text-transform: capitalize;
-  }
-  
-  #poem {
-    display: inline-block;
-    background-color: #f3f3f3;
-    min-height: 400px;
-    width: 400px;
-    padding: 30px 22px;
-  }
-
-  h1 {
-    color: brown;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    margin-top: 20px;
-  }
-
-/* Updated code below */
-  
 html {
   box-sizing: border-box;
-}
-
-.generate-button {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  color: antiquewhite;
-  background-color: brown;
-  width: 100px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+body {
+  padding: 1rem;
+  color: brown;
+  background-color: antiquewhite;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+h1 {
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+p {
+   color: brown;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   margin-top: 15px;
+}
 
 .group:after {
   content: "";
@@ -75,4 +60,8 @@ input[type=number] {
 
 .poetry-content {
   padding: 1rem;
+}
+
+div > img {
+  width: 200px;
 }
