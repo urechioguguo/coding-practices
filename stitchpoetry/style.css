@@ -19,6 +19,14 @@ p {
    margin-top: 1px;
 }
 
+.generate {
+  color: antiquewhite;
+  background-color: brown;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .center {
   display: block;
   margin-left: auto;
