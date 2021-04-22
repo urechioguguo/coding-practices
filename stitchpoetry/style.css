@@ -7,9 +7,10 @@ html {
 }
 
 body {
-  padding: 1rem;
+  padding: 4rem;
   color: brown;
   background-color: antiquewhite;
+  text-align: center;
 }
 
 p {
@@ -48,4 +49,5 @@ input[type=number] {
 .poetry-content {
   padding-top: 5px;
   padding-left: 5px;
+  margin-top: 4rem;
 }
