@@ -1,0 +1,91 @@
+#image {
+  background-color: antiquewhite;
+  width: 50rem;
+  height: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+html {
+  box-sizing: border-box;
+  padding: auto;
+  }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+textarea {
+  color: brown;
+  background-color: antiquewhite;
+  border-color: brown;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+body {
+  padding: 4rem;
+  color: brown;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+div {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5px;
+}
+
+h2 {
+  color: brown;
+  text-align: center;
+  color: brown;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  }
+
+div > img {
+  width: 200px;
+}
+
+p {
+   color: brown;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   margin-top: 1px;
+}
+
+.generate {
+  color: antiquewhite;
+  background-color: brown;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+input[type=number] {
+  width: 5rem;
+}
+
+.poetry-content {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-top: 4rem;
+  margin-bottom: 4rem
+}
+  
